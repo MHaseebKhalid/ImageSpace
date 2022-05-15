@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "339037731620",
+    "project_id": "imagspace-f4a35",
+    "storage_bucket": "imagspace-f4a35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339037731620:android:889772526e638ab43111b1",
+        "android_client_info": {
+          "package_name": "com.imagespace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339037731620-m0go4su2i8i5rmhff1obo4m1mb98l86g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imagespace",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "339037731620-jh4uak4nr0jvgi8mt1b4gamfjqlqspbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtq8yi_WiTo44j0t7vEG0PoBVgqtlfbLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339037731620-jh4uak4nr0jvgi8mt1b4gamfjqlqspbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
