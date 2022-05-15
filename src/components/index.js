@@ -1,2 +1,3 @@
-export * from './button/LoginButton'
+export * from './button/CustomButton'
+
 export * from './header/Header'

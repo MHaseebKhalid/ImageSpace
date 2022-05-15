@@ -1,4 +1,5 @@
 export const images = {
     facebookIcon:require('./images/facebook.png'),
-    logOutIcon:require('./images/logout.png')
+    plusIcon:require('./images/plus.png'),
+    logOutIcon:require('./images/logout.png'),
   };

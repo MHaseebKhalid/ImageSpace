@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import {View,Text,ActivityIndicator} from 'react-native';
 
 import {images} from '../../assets/images'
-import {LoginButton} from '../../components'
+import {CustomButton} from '../../components'
 import {styles} from './styles'
 import Firebase from '../../services/firebse/Firebase'
 
@@ -24,11 +24,15 @@ export const Login=({navigation})=>{
 
     return(
         <View style={styles.mainContainer}>
-            {                loading?
-                <ActivityIndicator size="large" color="#34aeff" />
-                :
-           <LoginButton onPress={facebookLogin} imgUri={images.facebookIcon}/>
-            }
+        {
+        loading?
+           <ActivityIndicator size="large" color="#34aeff" />
+            :
+           <View style={{alignItems:'center'}}>
+            <CustomButton onPress={facebookLogin} imgUri={images.facebookIcon}/>
+            <Text>Login with Facebook</Text>
+           </View>
+        }
         </View>
     )
 }
